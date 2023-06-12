@@ -1,0 +1,71 @@
+.center{
+width: 50%;
+margin:auto
+}
+.header-color{
+    background-color: rgb(48, 56, 106);
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 20px;
+   padding-left: 20px;
+   margin-bottom: 10px;
+   color: aliceblue;
+}
+
+h1{
+   color: #0A1551; 
+}
+#names{
+display: flex;
+flex-direction: row;
+/* padding-right: 5px;
+padding-left: 5px; */
+margin-right: 5px;
+
+
+}
+.firstname{
+    margin-bottom: 10px;
+    padding-right: 20px;
+}
+.middlename{
+    margin-bottom: 10px;
+    padding-right: 20px;
+}
+.surname{
+    margin-bottom: 10px;
+    padding-right: 20px;
+}
+.container{
+    padding: 15px 10px;
+}
+.card{
+   box-shadow:0px 10px 8px 0px #888888 ; 
+   transition: 0.3s;
+}
+.card:hover{
+box-shadow:0px 20px 16px 0px #888888 ; 
+}
+.gender{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.age{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.occupation{
+    margin-top: 10px;
+}
+.online{
+    margin-top: 10px;
+}
+.outlets{
+    margin-top: 10px;
+}
+#occupy{
+    margin-bottom: 8px;
+}
+#outlet{
+    margin-bottom: 8px;
+}
