@@ -21,20 +21,42 @@ flex-direction: row;
 /* padding-right: 5px;
 padding-left: 5px; */
 margin-right: 5px;
+margin-bottom: 20px;
+margin-top:5px;
+height:40px;
 
 
 }
-.firstname{
-    margin-bottom: 10px;
-    padding-right: 20px;
+.fullname{
+    /* margin-bottom: 10px; */
+    padding-right: 50px;
+    margin-top: 90px;
 }
-.middlename{
+#f1{
     margin-bottom: 10px;
-    padding-right: 20px;
+    margin-right: 3%;
+    margin-top: 10px;
+    border-radius:25px;
+    font-size: 15px;
 }
-.surname{
+#f2{
     margin-bottom: 10px;
-    padding-right: 20px;
+    margin-right: 3%;
+    margin-top: 10px;
+    border-radius:25px;
+    font-size: 15px;
+
+
+}
+#f3{
+    margin-bottom: 10px;
+    margin-right: 3%;
+    margin-top: 10px;
+    border-radius:25px;
+    font-size: 15px;
+
+
+  
 }
 .container{
     padding: 15px 10px;
@@ -47,8 +69,25 @@ margin-right: 5px;
 box-shadow:0px 20px 16px 0px #888888 ; 
 }
 .gender{
-    margin-top: 5px;
-    margin-bottom: 5px;
+    /* margin-top: 5px; */
+    margin-bottom: 20px;
+}
+
+.genderClass{
+    /* display: flex; */
+    /* margin-right: ; */
+    margin-top: 10px;
+}
+#g1{
+margin-right:150px;
+}
+#g2{
+    margin-right:180px;
+
+}
+#g3{
+    margin-right:100px;
+
 }
 .age{
     margin-top: 10px;
@@ -68,4 +107,60 @@ box-shadow:0px 20px 16px 0px #888888 ;
 }
 #outlet{
     margin-bottom: 8px;
+}
+.nameInput{
+    height: 70%;
+}
+.age{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+#age1{
+margin-right: 40%;
+margin-bottom:10%;
+
+}
+#age2{
+    margin-right: 10%;
+    margin-bottom:10%;
+
+}
+#age3{
+    margin-right: 40%;
+
+}
+#age4{
+    margin-right: 10%;
+
+}
+.splitAge{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.splitAge2{
+    margin-bottom: 20px;
+}
+.occupation{
+margin-bottom: 15px;
+}
+#occupy{
+display:flex;
+flex-direction: column;
+}
+/* .occupation1{
+    margin-top: 5px;
+} */
+
+.online{
+/* margin-top: 20px; */
+margin-bottom: 10px;
+}
+.yesno{
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+    
+}
+#yes{
+    margin-right: 50%;
 }

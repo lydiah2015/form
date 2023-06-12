@@ -2,9 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Survey</title>
 </head>
 
@@ -13,101 +13,92 @@
         <h1>ONLINE SHOPPING SURVEY</h1>
 
         <div class="card">
-
-
-
             <div class="header-color">
                 <h3>Online Shopping Store</h3>
-                <p>You are one of just a few people we are asking, so your answers are very important to us. Please be
-                    as
-                    honest
-                    as
-                    possible as the result are anonymous. For most, you need only check a box or enter a line for your
-                    answer.
-                    The
-                    survey will prompt you to complete all questions. Overall, it will take about 10 minutes of your
-                    time.
+                <p>
+                    You are one of just a few people we are asking, so your answers are
+                    very important to us. Please be as honest as possible as the result
+                    are anonymous. For most, you need only check a box or enter a line
+                    for your answer. The survey will prompt you to complete all
+                    questions. Overall, it will take about 10 minutes of your time.
                 </p>
             </div>
             <div class="container">
                 <form>
-                    <div id="names">
-
-
-                        <label class="firstname">First Name
-                            <br />
-                            <input type="text" />
-                        </label>
-                        <br />
-                        <label class="middlename">Middle Name
-                            <br />
-                            <input type="text" />
-                        </label>
-                        <br />
-                        <label class="surname">Surname
-
-                            <br />
-                            <input type="text" />
-                        </label>
-                    </div>
-
+                    <label class="fullname">Full Name
+                        <div id="names">
+                            <input type="text" id="f1" placeholder="Input First Name" class="nameInput" />
+                            <!-- </label> -->
+                            <!-- <label class="middlename"> -->
+                            <!-- Middle Name -->
+                            <input type="text" id="f2" placeholder="Input Middle Name" class="nameInput" />
+                            <!-- </label> -->
+                            <!-- </label> -->
+                            <!-- <label class="surname"> -->
+                            <!-- Surname -->
+                            <input type="text" id="f3" placeholder="Input Surname" class="nameInput" />
+                            <!-- </label> -->
+                        </div>
+                    </label>
 
                     <div class="gender">
-
-
                         <label>Your Gender : </label>
-                        <br />
-                        <br />
-                        <label><input type="radio" value="male" name="gender" />Male</label>
-                        <label> <input type="radio" value="female" name="gender" />Female</label>
-                        <label><input type="radio" value="ratherNotSay" name="gender" />Rather Not Say</label>
-
+                        <div class="genderClass">
+                            <label id="g1"><input type="radio" value="male" name="gender" />Male</label>
+                            <label id="g2">
+                                <input type="radio" value="female" name="gender" />Female</label>
+                            <label id="g3"><input type="radio" value="ratherNotSay" name="gender" />Rather Not
+                                Say</label>
+                        </div>
                     </div>
                     <div class="age">
-
-                        <label>Your Age :</label>
-                        <br />
-                        <br />
-
-                        <label> <input type="radio" value="13-18" name="age" />13-18</label>
-                        <label> <input type="radio" value="18-30" name="age" />18-30</label>
-                        <label> <input type="radio" value="30-40" name="age" />30-40</label>
-                        <label><input type="radio" value=">40" name="age" />Greater than 40</label>
-
+                        <label id="yourage">Your Age :</label>
+                        <div class="splitAge">
+                            <label id="age1">
+                                <input type="radio" value="13-18" name="age" />13-18</label>
+                            <label id="age2">
+                                <input type="radio" value="18-30" name="age" />18-30</label>
+                        </div>
+                        <div class="splitAge2">
+                            <label id="age3">
+                                <input type="radio" value="30-40" name="age" />30-40</label>
+                            <label id="age4"><input type="radio" value=">40" name="age" />Greater than
+                                40</label>
+                        </div>
                     </div>
                     <div class="occupation">
+                        <label>Select your occupation (you can choose more than one)</label>
+                        <div class="occupation1">
+                            <label id="occupy" >Student
+                                <input type="checkbox" value="student" name="occupation" />
+                            </label>
 
-                        <label>Select your occupation (you can choose more than one) </label>
-                        <br />
-                        <br />
+                            <label id="occupy" >Freelancer
+                                <input type="checkbox"  value="freelancer" name="occupation" /></label>
 
-                        <input type="checkbox"  id="occupy" value="student" name="occupation" /><label>Student</label>
-                        <br />
 
-                        <input type="checkbox" id="occupy" value="freelancer" name="occupation" /><label>Freelancer</label>
-                        <br />
+                            <label id="occupy" >Job Holder
+                                <input type="checkbox"value="jobHolder" name="occupation" /></label>
 
-                        <input type="checkbox" id="occupy"  value="jobHolder" name="occupation" /><label>Job Holder</label>
-                        <br />
+                            <label id="occupy" >Part-Timer<input type="checkbox"  value="partTimer"
+                                    name="occupation" />
+                                </label>
+                            <label id="occupy" >Business Man/Business Woman
+                                <input type="checkbox"  value="business" name="occupation" />
+                            </label>
 
-                        <input type="checkbox"  id="occupy" value="partTimer" name="occupation" /><label>Part-Timer</label>
-                        <br />
+                            <label id="occupy" >Other <input type="checkbox" value="other" name="occupation" />
+                            </label>
 
-                        <input type="checkbox" id="occupy"  value="business" name="occupation" /><label>Business Man/Business
-                            Woman</label>
-                        <br />
+                        </div>
 
-                        <input type="checkbox" id="occupy"  value="other" name="occupation" /><label>Other</label>
-
-                        <!-- <br /> -->
                     </div>
                     <div class="online">
-
                         <label>Do you shop online ?</label>
-                        <br />ORDER DETAILS
-Proposed Project Name
                         <!-- <br /> -->
-                        <label>
+                        <!-- <br /> -->
+                        <div class="yesno">
+                        <label id="yes">
                             <input type="radio" value="Yes" />
 
                             Yes
@@ -117,42 +108,41 @@ Proposed Project Name
 
                             No
                         </label>
+                    </div>
 
                         <!-- <br /> -->
                     </div>
                     <div class="outlets">
-
                         <label>Select All Outlets you have shopped at
                             <br />
                             <br />
                             <input type="checkbox" id="outlet" value="student" /><label>Zara</label>
                             <br />
 
-                            <input type="checkbox"  id="outlet" value="freelancer" /><label>Pretty Little Thing</label>
+                            <input type="checkbox" id="outlet" value="freelancer" /><label>Pretty Little Thing</label>
                             <br />
 
-                            <input type="checkbox" id="outlet" value="jobHolder" /><label>Addidas </label>
+                            <input type="checkbox" id="outlet" value="jobHolder" /><label>Addidas
+                            </label>
                             <br />
 
-                            <input type="checkbox"  id="outlet" value="partTimer" /><label>Nike</label>
+                            <input type="checkbox" id="outlet" value="partTimer" /><label>Nike</label>
                             <br />
 
-                            <input type="checkbox"  id="outlet" value="business" /><label> Sephora</label>
+                            <input type="checkbox" id="outlet" value="business" /><label>
+                                Sephora</label>
                             <br />
 
                             <input type="checkbox" id="outlet" value="other" /><label>Other</label>
 
                             <br />
-
                         </label>
                     </div>
-
                 </form>
                 <button type="submit">SUBMIT</button>
             </div>
         </div>
     </div>
-
 </body>
 
 </html>
