@@ -226,7 +226,7 @@ flex-direction: column;
 
     /* For mobile phones: */
     [class*="center-"] {
-        width: 50%;
+        width: 100%;
     }
 
     #names {
