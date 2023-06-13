@@ -67,28 +67,39 @@
                         </div>
                     </div>
                     <div class="occupation">
-                        <label>Select your occupation (you can choose more than one)</label>
+                        <div class="label1">
+                            <label>Select your occupation (you can select more than one option)</label>
+
+                        </div>
                         <div class="occupation1">
-                            <label id="occupy" >Student
+                            <div id="occupy">
                                 <input type="checkbox" value="student" name="occupation" />
-                            </label>
+                                <label>Student</label>
+                            </div>
 
-                            <label id="occupy" >Freelancer
-                                <input type="checkbox"  value="freelancer" name="occupation" /></label>
+                            <div id="occupy">
+                                <input type="checkbox" value="freelancer" name="occupation" />
+                                <label>Freelancer</label>
+                            </div>
 
 
-                            <label id="occupy" >Job Holder
-                                <input type="checkbox"value="jobHolder" name="occupation" /></label>
+                            <div id="occupy">
+                                <input type="checkbox" value="jobHolder" name="occupation" />
+                                <label>
+                                    Job Holder
+                            </div>
 
-                            <label id="occupy" >Part-Timer<input type="checkbox"  value="partTimer"
-                                    name="occupation" />
-                                </label>
-                            <label id="occupy" >Business Man/Business Woman
-                                <input type="checkbox"  value="business" name="occupation" />
-                            </label>
+                            <div id="occupy"><input type="checkbox" value="partTimer" name="occupation" />
+                                <label>Part-Timer</label>
+                            </div>
+                            <div id="occupy">
+                                <input type="checkbox" value="business" name="occupation" />
+                                <label>Business Man/Business Woman</label>
+                            </div>
 
-                            <label id="occupy" >Other <input type="checkbox" value="other" name="occupation" />
-                            </label>
+                            <div id="occupy"> <input type="checkbox" value="other" name="occupation" />
+                                <label>Other</label>
+                            </div>
 
                         </div>
 
@@ -98,49 +109,61 @@
                         <!-- <br /> -->
                         <!-- <br /> -->
                         <div class="yesno">
-                        <label id="yes">
-                            <input type="radio" value="Yes" />
+                            <label id="yes">
+                                <input type="radio" value="Yes" />
 
-                            Yes
-                        </label>
-                        <label>
-                            <input type="radio" value="No" />
+                                Yes
+                            </label>
+                            <label>
+                                <input type="radio" value="No" />
 
-                            No
-                        </label>
-                    </div>
+                                No
+                            </label>
+                        </div>
 
                         <!-- <br /> -->
                     </div>
                     <div class="outlets">
-                        <label>Select All Outlets you have shopped at
-                            <br />
-                            <br />
-                            <input type="checkbox" id="outlet" value="student" /><label>Zara</label>
-                            <br />
+                        <div class="label1">
+                            <label>Select All Outlets you have shopped at (you can slect more than one option) </label>
+                        </div>
+                        <div id="occupy">
 
+
+                            <input type="checkbox" id="outlet" value="student" /><label>Zara</label>
+                        </div>
+                        <div id="occupy">
                             <input type="checkbox" id="outlet" value="freelancer" /><label>Pretty Little Thing</label>
-                            <br />
+                        </div>
+                        <div id="occupy">
+
 
                             <input type="checkbox" id="outlet" value="jobHolder" /><label>Addidas
                             </label>
-                            <br />
-
+                        </div>
+                        <div id="occupy">
                             <input type="checkbox" id="outlet" value="partTimer" /><label>Nike</label>
-                            <br />
+                        </div>
+                        <div id="occupy">
+
 
                             <input type="checkbox" id="outlet" value="business" /><label>
                                 Sephora</label>
-                            <br />
+                        </div>
+                        <div id="occupy">
+
 
                             <input type="checkbox" id="outlet" value="other" /><label>Other</label>
+                        </div>
 
-                            <br />
-                        </label>
+
                     </div>
-                </form>
-                <button type="submit">SUBMIT</button>
+                    <div class="btn">
+                        <button id="btn" type="submit">SUBMIT</button>
+
+                    </div>
             </div>
+            </form>
         </div>
     </div>
 </body>
