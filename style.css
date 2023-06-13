@@ -222,10 +222,12 @@ flex-direction: column;
     /* color:#0A1551; */
 }
 
-@media only screen and (min-width: 768px) {
 
-    /* For mobile phones: */
-    [class*="center-"] {
+ /* For mobile phones: */
+/* @media only screen and (min-width: 768px) {
+
+   
+   .center {
         width: 100%;
     }
 
@@ -233,4 +235,4 @@ flex-direction: column;
         display: flex;
         flex-direction: column;
     }
-}
+} */
